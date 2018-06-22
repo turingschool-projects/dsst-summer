@@ -34,7 +34,7 @@ It’s a “style sheet language” that lets you style the HTML elements on you
 
 ## Anatomy of a Basic CSS Rule
 
-# ![CSS Rule](/assets/images/css-rule.png)
+# ![CSS Rule](/assets/css-rule.png)
 
 * Can target via tag name
 * Can target via class name
@@ -47,7 +47,7 @@ It’s a “style sheet language” that lets you style the HTML elements on you
 ## All the Elements are Boxes
 Each element is a rectangular box. CSS leverages "the box model" to control layout and design. An HTML element is comprised of its content and the margins, borders, padding surrounding it. Boxes are "stacked" in the order they appear in your HTML. You can stack them horizontally, vertically, and in the z-plane.
 
-# ![Box Model](/assets/images/box-model.jpg)
+# ![Box Model](/assets/box-model.jpg)
 
 ***
 
@@ -64,7 +64,7 @@ Each element is a rectangular box. CSS leverages "the box model" to control layo
 #### Editing CSS
 To the right of the HTML pane, there's a small sidebar that gives us styling information for the currently selected element. Similar to the HTML pane, we can add or remove styles and adjust CSS property values from this pane. You can click on any style property associated with the selected element and change its value. You can also use the blue checkbox to toggle the style on or off.
 
-![Editing CSS](/assets/images/lessons/debugging-with-devtools/editing-css.png)
+![Editing CSS](/assets/editing-css.png)
 
 
 ### Your Challenge
@@ -226,4 +226,4 @@ Key Points:
 # Your Turn
 Style that dog party like a BOSS! :smirk:
 
-# ![Dog Party](/assets/images/dog-party.png)
+# ![Dog Party](/assets/dog-party.png)
