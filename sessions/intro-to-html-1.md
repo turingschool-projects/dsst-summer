@@ -38,7 +38,7 @@ The front-end of the web is based on three major technologies:
  * Markup = the set of tags to structure a page
 
 ## Anatomy of a Tag
-![Anatomy of an HTML Tag](/assets/images/html-tag.jpg)
+![Anatomy of an HTML Tag](/assets/html-tag.jpg)
 
 ## Elements
 Elements are created with one or more tags. They are used to describe and hold our content.
@@ -102,7 +102,7 @@ Let's experiment with the following tags in codepen:
 
 Use these tags to create the structure of the newspaper. Do not worry about recreating exactly, the goal is just to create the structure.
 
-![Alien Paper](/assets/images/alien-paper.png)
+![Alien Paper](/assets/alien-paper.png)
 
 <p data-height="300" data-theme-id="23788" data-slug-hash="oYePxJ" data-default-tab="html,result" data-user="turing" data-embed-version="2" data-pen-title="Blank" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/team/turing/pen/oYePxJ/">Blank</a> by Turing School of Software and Design (<a href="http://codepen.io/turing">@turing</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
@@ -125,7 +125,7 @@ Consider the following:
 ```
 Our browser is more than happy to load up an image, but we need to tell it where that image is located. Our `<img>` tag needs extra information to know which image to display. That's where the `src` attribute comes in.
 
-![Anatomy of an HTML Tag](/assets/images/html-tag-anatomy.png)
+![Anatomy of an HTML Tag](/assets/html-tag-anatomy.png)
 
 Let's update our page with the image above.
 
