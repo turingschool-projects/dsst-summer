@@ -19,7 +19,7 @@ HTML Guide and form structure
 
 Dev Tools
 * [Chrome Dev Tools Docs](https://developers.google.com/web/tools/chrome-devtools/)
-* [Code School Chrome Dev Tools](http://discover-devtools.codeschool.com/)
+* [The Basic of Chrome Dev Tools](https://www.udemy.com/devtools-2017-the-basics-of-chrome-developer-tools/)
 
 Accessibility
 * [MDN Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
@@ -90,8 +90,8 @@ As mentioned earlier, there are a lot of places on the front-end where code can 
 
 For now, we're only going to focus on the first panel: Elements.
 
-[devtools-window]: /assets/images/lessons/debugging-with-devtools/devtools-window.gif
-[devtools-toolbar]: /assets/images/lessons/debugging-with-devtools/devtools-toolbar.png
+[devtools-window]: /assets/devtools-window.gif
+[devtools-toolbar]: /assets/devtools-toolbar.png
 
 ---------------------------------------
 
@@ -126,8 +126,8 @@ Let's work with the following edits on [girldevelopit.com](https://www.girldevel
 * Change the "flourish" logo in the headline to one of puppies
 
 
-[elements-panel]: /assets/images/lessons/debugging-with-devtools/elements-panel.png
-[find-in-html]: /assets/images/lessons/debugging-with-devtools/find-in-html.gif
+[elements-panel]: /assets/elements-panel.png
+[find-in-html]: /assets/find-in-html.gif
 
 ***
 
@@ -147,7 +147,7 @@ WAI-ARIA is a shorthand for (Web Accessibility Initiative – Accessible Rich In
 
 An important point about WAI-ARIA attributes is that they don't affect anything about the web page, except for the information exposed by the browser's accessibility APIs (where screenreaders get their information from). WAI-ARIA doesn't affect webpage structure, the DOM, etc., although the attributes can be useful for selecting elements by CSS.
 
-![Aria Tree](/assets/images/aria.jpg)
+![Aria Tree](/assets/aria.jpg)
 
 ## Rules of ARIA Use
 There are a few core rules to keep in mind when using ARIA:
@@ -217,7 +217,7 @@ good: <img src="mountain.jpg" alt="The cascade mountains at sunset in January" /
 
 One of the easiest ARIA features to implement, and one that provides significant immediate benefits to screen reader users, is landmark roles. To add them, simply add a relevant role attribute to an appropriate container within your HTML. This allows the screen reader to quickly jump to that section of the page. Below, you will find an example of how you might utilize the different landmark roles for your layout:
 
-![Landmark Layout](/assets/images/landmarks.png)
+![Landmark Layout](/assets/landmarks.png)
 
 __Take note:__
 
