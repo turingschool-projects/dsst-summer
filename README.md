@@ -19,7 +19,7 @@
 |---            |---             |---       |---     |
 |*9:00-9:15*    | Morning Team-Builder |  |  |
 |*9:15-10:30*   | [Class: Intro to CSS](sessions/css-1.md)|  |  |
-|*10:30-12:00*  | [Class: Responsive Layouts with CSS](intro-to-responsive.md)|  |  |
+|*10:30-12:00*  | [Class: Responsive Layouts with CSS](sessions/intro-to-responsive.md)|  |  |
 |*12:00-1:00*   | Lunch + Healthgrades Visit |
 |*1:00-3:00*    | [Class: Fun with CSS Animations](sessions/intro-to-css-animations.md)|  |  |
 |*3:00-3:45*    | Code: Debugging the Gender Gap|  |  |
