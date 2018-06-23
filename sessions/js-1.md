@@ -53,23 +53,7 @@ Now that we know a little bit about JavaScript, let's talk about how to actually
 
 There are different data types in JavaScript. It's important to understand what type of data you're dealing with as you're writing code, and knowing the types of data are available to you is the first step.
 
-Javascript has six primitive data types:
-- Null
-- Undefined
-- Boolean
-- Number
-- String
-- Symbol (new in ECMAScript 6 we do not need to worry about this one)
-
- Let's go over what each of these is.
-
-## Null Data Type
-
-The datatype null only has one value which is `null`. It is used to show an intentional absence of a value. This is often used when creating a variable that could have a value later.
-
-## Undefined Data Type
-
-The datatype undefined only has one value which is `undefined`. A variable which has not been assigned a value has a datatype of `undefined`. A function returns `undefined` unless another value is returned.
+Javascript has six primitive data types - today, we will be going over three:
 
 ## Boolean Data Type
 
