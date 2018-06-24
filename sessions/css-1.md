@@ -81,11 +81,8 @@ Let's work with the following edits on [girldevelopit.com](https://www.girldevel
 # Practice
 Let's setup a small static page to experiment with our HTML and CSS.
 
-* Create a directory called static-site-playground
-* Create a file `index.html` with the html provided below
-* Create a file `main.css`
-* Link the index and main files you just made
-* Test things are working as expected
+* Open up a new pen on CodePen and title it `CSS Playground`
+* Using the template below, set up your HTML file
 
 ```html
 <!doctype html>
@@ -221,4 +218,10 @@ Key Points:
 * When an !important rule is used on a style declaration, it will override any other declarations.
 * The only way an !important value can be overridden is with another !important rule declared later in the CSS and with equal or great specificity value .
 
+
 ***
+
+# Your Turn
+Style that dog party like a BOSS! :smirk:
+
+# ![Dog Party](/assets/dog-party.png)
