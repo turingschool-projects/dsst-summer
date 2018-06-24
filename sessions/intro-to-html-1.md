@@ -40,6 +40,18 @@ The front-end of the web is based on three major technologies:
 ## Anatomy of a Tag
 ![Anatomy of an HTML Tag](/assets/html-tag.jpg)
 
+
+## Required Structure of any HTML Page
+
+* `<!doctype html>` declaration: The doctype declaration is not an HTML tag, but rather tells the browser which version of HTML the page is written in.  
+  - [W3C DTD Docs](https://www.w3.org/QA/2002/04/valid-dtd-list.html)  
+* `<html></html>` tag wraps the entire document
+* `<head></head>` tag wraps elements that shouldn't be rendered: information about the page and how to process it
+* `<body></body>` tag wraps elements that should be displayed: the actual content
+
+<p data-height="300" data-theme-id="23788" data-slug-hash="gLxjjy" data-default-tab="html,result" data-user="turing" data-embed-version="2" data-pen-title="A complete but small document" class="codepen">See the Pen <a href="http://codepen.io/team/turing/pen/gLxjjy/">A complete but small document</a> by Turing School of Software and Design (<a href="http://codepen.io/turing">@turing</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
 ## Elements
 Elements are created with one or more tags. They are used to describe and hold our content.
 
@@ -206,17 +218,6 @@ Instead we'll focus on two elements:
 - `<button>` creates a button. `<button>` on the other hand does support a closing tag.
 
 <p data-height="300" data-theme-id="23788" data-slug-hash="MeaMEr" data-default-tab="html,result" data-user="turing" data-embed-version="2" data-pen-title="Inputs and Buttons" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/team/turing/pen/MeaMEr/">Inputs and Buttons</a> by Turing School of Software and Design (<a href="http://codepen.io/turing">@turing</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-
-## Required Structure of any HTML Page
-
-* `<!doctype html>` declaration: The doctype declaration is not an HTML tag, but rather tells the browser which version of HTML the page is written in.  
-  - [W3C DTD Docs](https://www.w3.org/QA/2002/04/valid-dtd-list.html)  
-* `<html></html>` tag wraps the entire document
-* `<head></head>` tag wraps elements that shouldn't be rendered: information about the page and how to process it
-* `<body></body>` tag wraps elements that should be displayed: the actual content
-
-<p data-height="300" data-theme-id="23788" data-slug-hash="gLxjjy" data-default-tab="html,result" data-user="turing" data-embed-version="2" data-pen-title="A complete but small document" class="codepen">See the Pen <a href="http://codepen.io/team/turing/pen/gLxjjy/">A complete but small document</a> by Turing School of Software and Design (<a href="http://codepen.io/turing">@turing</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 ***
