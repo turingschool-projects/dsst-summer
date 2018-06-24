@@ -32,7 +32,6 @@ In this lesson we'll cover:
 - See [vocab](http://frontend.turing.io/lessons/module-1/js-1.html) for JS I
 - `Anonymous Function` A function without a name
 - `Scope` Determines the accessibility/visibility of variables and other expressions
-- `Hoisting` The process of implicitly moving the declaration of variables and functions to the top of their scope
 - `Literal`  A way of declaring a data structure and its values at the same time
 - `Array` Used to store a list of data items/multiple values under a single variable name
 - `Loops` A quick and easy way to do something repeatedly
@@ -84,7 +83,7 @@ Turn to your neighbor and explain how the functions above work. Remember, gettin
 
 How would you use parameters and arguments to make the logged string be different each time we call the function?
 
-## Part 2: Declarations vs Expressions
+## Part 2: Putting a name (or not) to our functions
 
 ### Named Functions aka Function Declarations
 
@@ -92,7 +91,7 @@ So far, we've been working with *named functions*. *Named functions* can also be
 
 Through *function declaration*, or *named functions*, ie: `function myNamedFunction()`, we create a function that we intend to call later in our code via the name we gave it.  
 
-This type of function does not require the keyword `var` to kick it off. Even without the keyword `var`, the syntax feels similar to when we were naming/assigning variables: a variable declaration must start with `var`, followed by the name of the variable, and a function declaration must start with `function`, followed by the name of the function.  We can then call this function all over our code by that name property.  
+Although there are other ways to declare functions in JavaScript, today we will primarily focus on using named functions for our code.
 
 ```javascript
 // Declare a named function
@@ -104,18 +103,11 @@ function myRadFunction(parameter) {
 // Call that named function to execute
 myRadFunction("Boom");
 
-// You can even call the function INSIDE ITSELF, which is called "recursion".
-function myRadFunction(parameter) {
-  console.log(parameter)
-  if (someCondition) {
-    myRadFunction(parameter)
-  }
-}
 ```
 
-### Anonymous Functions and Function Expressions
+### Anonymous Functions
 
-Another type of function is the *anonymous function*, which does not have a name. These are commonly used as arguments to other functions:
+Another type of function that we will sometimes utilize is the *anonymous function*, which does not have a name. These are commonly used as arguments to other functions as seen below:
 
 ```js
 setTimeout(function() {
@@ -123,80 +115,14 @@ setTimeout(function() {
 }, 1000)
 ```  
 
-They are also commonly referred to as a *function expression* because the function is assigned to a variable, which makes the anonymous function part of a larger `expression`.  
+In general, you should only use an anonymous function when a named function doesn't make sense. For example, it is common to use anonymous functions when you have a function that is only being called in one place.
 
-```js
-var alienAlert = function() {
-  alert('E.T. PHONE HOME')
-};
-alienAlert();
-```
+So why use named functions over anonymous functions?
 
-Take a moment to recall what an `expression` does in JavaScript. How do you think that applies here?  
+* Named funtions are more useful for identifying what functions caused errors (during the debugging process)
+* Named functions are more readable
+* Named functions are easier to reuse
 
-Things to think about:  
-- Where can expressions be used?
-- Can a function return a value?
-- Can a function be an expression?  
-
-Recall that anywhere the interpreter expects to find an expression, like when you declare a variable name, we can use an expression that is NOT named as the value. In the context of functions, we call this an *anonymous function*. Remember that an expression simply returns a value, so it makes sense that we should be able to accomplish that with an function.
-
-To reiterate, `function expressions` define a function, but instead of giving the name to the function itself, the function is left anonymous and the name is instead assigned to a variable.  
-
-Let's take a look at a few more examples.
-
-```js
-// Instead of declaring a named function, we assign a function to a variable.
-var calculateArea = function(width, height) {
-  return width * height;
-};
-
-// We call this function using the variable that we assigned our anonymous function to
-calculateArea(2, 1)
-
-// We can even assign that function call as the value of another variable. How would we run our 'area' function now?
-var size = calculateArea(3, 4);
-```
-
-Why does this matter? Seems like everyone just wants to make life hard with all these different ways of doing what seems like the same thing. Enter...
-
-### Hoisting
-
-Hoisting is a fancy way of saying that "some things are considered more important" to the interpreter that processes your JavaScript. In other words, certain lines of code are `hoisted` to the top of the containing scope of your code.  
-
-But WTF does that even mean??
-
-Example:
-
-```js
-// This named function...
-function foo() {
-  bar();
-  var x = 1;
-}
-
-// Will actually be interpreted like this:
-function foo() {
-  var x;
-  bar();
-  x = 1;
-}
-```
-
-A function declaration (ie: `function foo()`) has a higher priority to the interpreter than an anonymous function (ie: `function()`). The interpreter will always look for variables and function declarations _before_ going line-by-line through the rest of the script. This means that a function created by a function declaration gets special treatment, and can be called _before_ it has even been declared.  
-
-But Wait! Don't the examples above show that variables get hoisted? Doesn't that mean that function expressions (ie: `var foo = function()`) would get hoisted too?.
-
-Tricky Question! You'll notice that in the above snippets of code, only the **NAME** of the variable is hoisted, but the value is left behind. The value of that variable is not evaluated until the interpreter reaches the line where that variable is declared. **Function declarations, on the other hand, are treated differently. The entire body of that declaration will be hoisted as well.**    
-
-In other words, this means that when a function is written as an expression, the interpreter won't process it until it gets to that full statement. **This means function expressions do *not* get special treatment, you cannot call the function _before_ the interpreter discovers it.** (As a side note, it also means any preceding code up to that point could potentially alter what goes inside that function.)  
-
-### Your Turn
-Take a few minutes with the person in front/behind you to talk through and explain hoisting to each other.
-
-<!-- Take a few minutes with the person in front/behind you to look through the following examples functions. Try to answer the questions WITHOUT using your console yet. Then we will go over them together.  
-
-[Check Your Understanding](https://gist.github.com/)   -->
 
 # Variable Scope
 Where you declare a variable affects where it can be used within your code. If you declare a variable within a function, it can only be used within that function. This is known as the variable's `scope`. When we talk about variables in regard to their scope, there are two (kind of three) types:
