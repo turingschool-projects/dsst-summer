@@ -217,11 +217,3 @@ Key Points:
 * The pseudo-class :not() adds no specificity by itself, only elements inside its parenthesis will add to specificity weight.
 * When an !important rule is used on a style declaration, it will override any other declarations.
 * The only way an !important value can be overridden is with another !important rule declared later in the CSS and with equal or great specificity value .
-
-
-***
-
-# Your Turn
-Style that dog party like a BOSS! :smirk:
-
-# ![Dog Party](/assets/dog-party.png)
