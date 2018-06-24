@@ -45,7 +45,7 @@ Because adaptive layouts typically take less time to build than true responsive 
 The primary drawback to this strategy is that screen widths that fall between the set breakpoints can feel awkward, with contents looking either too crowded or with far too much space.
 
 **Responsive Page Layout**
-At first glance, a response site looks a lot like an adaptive site. But start resizing your screen, and you'll see why it's the best solution. A true responsive page layout combines the best parts of a liquid layout and an adaptive layout to create the best experience for your users as they move between devices and screen sizes. By using both relative units and media queries, a responsive site allows us to transition through screen sizes seamlessly and effortlessly.
+At first glance, a responsive site looks a lot like an adaptive site. But start resizing your screen, and you'll see why it's the best solution. A true responsive page layout combines the best parts of a liquid layout and an adaptive layout to create the best experience for your users as they move between devices and screen sizes. By using both relative units and media queries, a responsive site allows us to transition through screen sizes seamlessly and effortlessly.
 
 ## Docs
 
@@ -87,7 +87,7 @@ To get started, we'll set up our HTML skeleton so we have a roadmap of where we'
 
 Now that we have our basic HTML page structure written, we can think about how we want to structure the contents. We know we want to have nav, main content, some secondary content in a sidebar on the right side of the screen, and a footer so we'll go ahead and add the appropriate tags for those chunks of content.
 
-Working in ``index.html``, let's start at the top and work our way down the page. For our primary navigation, we'll keep it simple and use the semantic ``header`` tag. If we wanted to flush it out as a navigation bar with links inside our header, we could wrap a ``nav`` tag around an unordered list to become our navigation links.
+Working in your ``html`` file in CodePen, let's start at the top and work our way down the page. For our primary navigation, we'll keep it simple and use the semantic ``header`` tag. If we wanted to flush it out as a navigation bar with links inside our header, we could wrap a ``nav`` tag around an unordered list to become our navigation links.
 
 ```html
 <body>
@@ -137,9 +137,9 @@ We'll keep this content simple for now so we can focus on getting the HTML eleme
 </html>
 ```
 
-For the sake of our sanity, let's pull in a reset file for our CSS. Browsers all have default styles they apply to HTML. Since these default styles are not consistent from browser to browser, it's a good idea to wipe out the default styles before you start writing your own. That's exactly what a reset file does: it resets the default styles! While you can write you own, we'll be using [this one](http://meyerweb.com/eric/tools/css/reset/) from Eric Meyer. Simply copy and paste it into a new file called ``reset.css`` and add it in the ``<head>`` tag of ``index.html``.
+For the sake of our sanity, let's pull in a reset file for our CSS. Browsers all have default styles they apply to HTML. Since these default styles are not consistent from browser to browser, it's a good idea to wipe out the default styles before you start writing your own. That's exactly what a reset file does: it resets the default styles! Go to `settings` in your CodePen, select ``CSS``, and select the option for `reset` under `CSS Base`. Now hit the `Save & Close` button.
 
-Let's start writing our styles. Make a ``styles.css`` and add it to your ``index.html``. Pro-tip: Make sure you add it on the line **below** your ``reset.css``, or the reset file will override all the styles you write.
+Let's start writing our own styles in the ``css`` file of our CodePen.
 
 Let's start at the top and work our way down the page.
 
@@ -175,7 +175,7 @@ For the header tag, we've done the following things:
 - added a 25px margin to the bottom so the contents of our page don't crowd our nav bar
 - centered all the content.
 
-Since our ``header`` tag wraps an ``h2`` tag, we don't have to write as many styles here. We've added top padding to vertically center the link, and added a ``:hover`` pseudo element that changes the text color to white so our users can tell when they move their cursor over it that it's clickable. And with that, our header 'navigation' is good to go!
+Since our ``header`` tag wraps an ``h2`` tag, we don't have to write as many styles here. We've added top padding to vertically center the link, and added a ``:hover`` pseudo class that changes the text color to white so our users can tell when they move their cursor over it that it's clickable. And with that, our header 'navigation' is good to go!
 
 On to our body content!
 
@@ -259,12 +259,13 @@ Let's start with our media query for large screens. We know we want our breakpoi
 }
 ```
 
-Once we've established that our query is working, we can update the styles we want to change on larger screens. We have a pretty simple layout, so let's just set set a width on the ``.container`` that wraps our page's body content. This will give the content a little breathing room around the left and right edges of the screen since we don't need all that space on big screens.
+Once we've established that our query is working, we can update the styles we want to change on larger screens. We have a pretty simple layout, so let's just set set a width on the ``.container`` and center the body content. This will give the content a little breathing room around the left and right edges of the screen since we don't need all that space on big screens.
 
 ```css
 @media screen and (min-width: 900px) {
   .container {
     width: 90%;
+    margin: auto;
   }
 }
 ```
