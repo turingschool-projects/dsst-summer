@@ -50,7 +50,7 @@ The front-end of the web is based on three major technologies:
 * `<body></body>` tag wraps elements that should be displayed: the actual content
 
 <p data-height="300" data-theme-id="23788" data-slug-hash="gLxjjy" data-default-tab="html,result" data-user="turing" data-embed-version="2" data-pen-title="A complete but small document" class="codepen">See the Pen <a href="http://codepen.io/team/turing/pen/gLxjjy/">A complete but small document</a> by Turing School of Software and Design (<a href="http://codepen.io/turing">@turing</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script> 
 
 ## Elements
 Elements are created with one or more tags. They are used to describe and hold our content.
