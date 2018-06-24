@@ -222,8 +222,3 @@ Key Points:
 * The only way an !important value can be overridden is with another !important rule declared later in the CSS and with equal or great specificity value .
 
 ***
-
-# Your Turn
-Style that dog party like a BOSS! :smirk:
-
-# ![Dog Party](/assets/dog-party.png)
