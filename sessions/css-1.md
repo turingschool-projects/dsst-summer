@@ -99,13 +99,13 @@ Let's setup a small static page to experiment with our HTML and CSS.
 ## Let's draw some boxes and play with some basic CSS properties
 
 * Box Model things: `width`, `height`, `border`, `padding`, `margin`
-* Aesthetic things: `color`, `font`, `background`
+* Aesthetic things: `color`, `font-family`, `background-color`
 
 ### Box-Sizing and the CSS Box Model:
 
 In HTML, you can visualize each element as its own rectangular box. There are a number of CSS properties that can affect the final width and height of each of these boxes. The CSS Box Model describes how the final height and width of an element is determined.
 
-We have a `div` element that we gave a `width` of `400` and a `height` of `200`. However, we've also applied several additional properties that are affecting its size and positioning. The `padding` and `border` properties are both adding `20px` to the element's height and width. Now the actual *visible* dimensions of our element are `480x280`. The DevTools panel provides a handy graphic of how our div is being rendered.
+We have a `div` element that we gave a `width` of `400` and a `height` of `200`. However, we've also applied several additional properties that are affecting its size and positioning. The `padding` property is adding `20px` to the element's height and width. Now the actual *visible* dimensions of our element are `440x240`. The DevTools panel provides a handy graphic of how our div is being rendered.
 
 This is the default behavior for the rendering of block elements in CSS and is due to the `box sizing` property having a default value of `content-box`. The `box-sizing` property allows us to override this behavior and alter how the dimensions of an element are calculated:
 
