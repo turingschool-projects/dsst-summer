@@ -197,7 +197,7 @@ li p {
 ```
 
 ### How do you calculate specificity?
-To find the actual specificity of a group of nested selectors takes some calculation. Basically, every inline style has a specificity of 1000, every ID selector has a value of 100, every class selector has a value of 10 and every elements and pseudo elements  has a value of 1. Finally, we add them up to get the specificity weight.
+To find the actual specificity of a group of nested selectors takes some calculation. Basically, every inline style has a specificity of 1000, every ID selector has a value of 100, every class selector has a value of 10 and every element has a value of 1. Finally, we add them up to get the specificity weight.
 
 Examples:-
 
@@ -205,7 +205,6 @@ Examples:-
 * `div p` has a specificity of 2 (2 element selectors, 1+1)
 * `.active` has a specificity of 10 (1 class selector)
 * `#nav` has a specificity of 100 (1 id selector)
-* `#nav li.active` a has a specificity of 111 (1 id selector + 1 class selector + 1 elements selector)
 
 [Specificity Calculator](https://specificity.keegan.st/) The highest number wins for most specific and will correspondingly take precedent in application of style.
 
@@ -213,7 +212,3 @@ Key Points:
 
 * In case of conflicting styles declaration, the declaration with higher specificity will win regardless of order.
 * The universal selector (*) has no specificity value.
-* Pseudo-classes have specificity of 10 while pseudo-elements (e.g. :first-line) has a specificity of 1. [Pseudo-class vs. Pseudo-element](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/)
-* The pseudo-class :not() adds no specificity by itself, only elements inside its parenthesis will add to specificity weight.
-* When an !important rule is used on a style declaration, it will override any other declarations.
-* The only way an !important value can be overridden is with another !important rule declared later in the CSS and with equal or great specificity value .
