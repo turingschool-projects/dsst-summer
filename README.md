@@ -9,8 +9,7 @@
 |*10:00-10:45*  | Wireframing Idea Brainstorm Adventure|  |  |
 |*10:45-12:00*  | [Class: Intro to HTML](sessions/intro-to-html-1.md)|   |   |
 |*12:00-1:00*   | Lunch|
-|*1:00-2:00*    | [Class: Intro to HTML](sessions/intro-to-html-2.md)|  |  |
-|*2:00-3:30*    | [Class: Intro to CSS](sessions/css-1.md)|  |  |
+|*1:00-3:30*    | [Class: Intro to HTML](sessions/intro-to-html-2.md)|  |  |
 |*3:45-4:00*    | Wrap Up: Wins of the Day and Appreciations |  |  |
 
 ### Day 2
@@ -18,10 +17,10 @@
 |Time           |Session         |Status    |Assigned|
 |---            |---             |---       |---     |
 |*9:00-9:15*    | Morning Team-Builder |  |  |
-|*9:15-10:30*   | [Class: Intro to CSS](sessions/css-1.md)|  |  |
-|*10:30-12:00*  | [Class: Responsive Layouts with CSS](sessions/intro-to-responsive.md)|  |  |
+|*9:15-11:00*   | [Class: Intro to CSS](sessions/css-1.md)|  |  |
+|*11:00-12:00*  | [Class: Responsive Layouts with CSS](sessions/intro-to-responsive.md)|  |  |
 |*12:00-1:00*   | Lunch + Healthgrades Visit |
-|*1:00-3:00*    | [Class: Fun with CSS Animations](sessions/intro-to-css-animations.md)|  |  |
+|*1:00-3:00*    | [Class: Fun with CSS Animations & Work Time](sessions/intro-to-css-animations.md)|  |  |
 |*3:00-3:45*    | Code: Debugging the Gender Gap|  |  |
 |*3:45-4:00*    | Wrap Up: Wins of the Day and Appreciations |  |  |
 
