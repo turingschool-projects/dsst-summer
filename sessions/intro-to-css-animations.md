@@ -93,16 +93,6 @@ Setup:
 5. Discuss your observations from #4 and research the documentation to prove and clarify your observations.
 
 ### Code Pen #3
-Make 4 divs inside a wrapping element. When the wrapping element is hovered on, apply different transitions to all 4 internal divs using transition-delay so the transitions execute at different times. Make them move, change colors, change borders, go nuts. Use this block of code as a starting point:
-
-```css
-div .a { transition-delay: 0s; }
-div .b { transition-delay: 1s; }
-div .c { transition-delay: 2s; }
-div .d { transition-delay: 3s; }
-```
-
-### Code Pen #4
 Setup:
 
 ```html
@@ -131,10 +121,9 @@ Setup:
 
 1. Rotate the box counter-clockwise 45 degrees
 2. What happens when you pass rotate an argument of `.5turn` or `.75turn` or `2turn`
-3. You can control the origin from which the transformation initiates. Add `-webkit-transform-origin: 100% 100%;` to the hover state of your container and then experiment with changing the x and y values of the property. What do you notice by using 0 for both x and y, versus using 50% for both x and y?
-4. Implement `scale` and `skew` transformations
+3. What are `scale` and `skew` transformations do? Use your documentation to implement those when you hover over the box.
 
-### Code Pen #5
+### Code Pen #4
 
 Setup:
 
@@ -162,13 +151,18 @@ div {
 }
 ```
 
-1. Discuss with your partner what the testAnimation will do
-2. Connect the defined keyframes to the div
+1. Discuss with your partner what the keyframe Animation that we've named `testAnimation` will do
+2. Now connect the defined keyframes (testAnimation) to the div by adding the following declaration the div:
+```css
+  animation-name: testAnimation;
+
+```
 3. Create a 3s duration for the animation
 4. Create a zero animation delay
 5. Create an infinite iteration count
-6. Create a linear timing function
+6. Create a linear timing function 
 7. Set the animation direction to alternate
+8. Extra challenge: Try to combine these declarations using the shorthand `animation` property
 
-### Code Pen #6 :facepunch: :dizzy_face:
-Go crazy. Experiment with all you've just learned and make a 4-stage animation(s). Hint: code pen #5 was a 2-stage animation. Post animations in 1611 slack channel.
+### Code Pen #5 :facepunch: :dizzy_face:
+Go crazy. Experiment with all you've just learned and make a 4-stage animation(s). Hint: code pen #4 was a 2-stage animation. 
