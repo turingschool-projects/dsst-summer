@@ -17,10 +17,9 @@
 |Time           |Session         |Status    |Assigned|
 |---            |---             |---       |---     |
 |*9:00-9:15*    | Morning Team-Builder |  |  |
-|*9:15-11:00*   | [Class: Intro to CSS](sessions/css-1.md)|  |  |
-|*11:00-12:00*  | [Class: Responsive Layouts with CSS](sessions/intro-to-responsive.md)|  |  |
+|*9:15-12:00*   | [Class: Intro to CSS](sessions/css-1.md)|  |  |
 |*12:00-1:00*   | Lunch + Healthgrades Visit |
-|*1:00-3:00*    | [Class: Fun with CSS Animations & Work Time](sessions/intro-to-css-animations.md)|  |  |
+|*1:00-3:00*  | [Class: Responsive Layouts with CSS](sessions/intro-to-responsive.md)|  |  |
 |*3:00-3:45*    | Code: Debugging the Gender Gap|  |  |
 |*3:45-4:00*    | Wrap Up: Wins of the Day and Appreciations |  |  |
 
@@ -31,8 +30,7 @@
 |*9:00-9:15*    | Morning Team-Builder |  |  |
 |*9:15-12:00*   | [Class: JS1](sessions/js-1.md)|  |  |
 |*12:00-1:00*   | Lunch|
-|*1:00-2:00*    | [Class: JS1 (morning overflow/review))](sessions/js-1.md)|  |  |
-|*2:00-3:00*    | [Class: JS2](sessions/js-2.md)|  |  |
+|*1:00-3:00*    | [Class: Fun with CSS Animations & Work Time](sessions/intro-to-css-animations.md)|  |  |
 |*3:00-3:45*    | Collaboration: Work Styles & Strengthsfinder |  |  |
 |*3:45-4:00*    | Wrap Up: Wins of the Day and Appreciations |  |  |
 
