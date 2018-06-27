@@ -39,7 +39,7 @@
 |Time           |Session         |Status    |Assigned|
 |---            |---             |---       |---     |
 |*9:00-9:15*    | Morning Team-Builder |  |  |
-|*9:15-12:00*   | [Class: JS2(continued)](sessions/js-2.md)|  |  |
+|*9:15-12:00*   | [Class: JS2](sessions/js-2.md)|  |  |
 |*12:00-1:00*   | Lunch|
 |*1:00-3:00*    | [Class: JS3](sessions/js-3.md)|  |  |
 |*3:00-3:45*    | Professional Skills Session: Personal Branding: Developing your 30 second story |  |  |
