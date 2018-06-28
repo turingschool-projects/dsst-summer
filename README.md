@@ -39,9 +39,9 @@
 |Time           |Session         |Status    |Assigned|
 |---            |---             |---       |---     |
 |*9:00-9:15*    | Morning Team-Builder |  |  |
-|*9:15-12:00*   | [Class: JS2](sessions/js-2.md)|  |  |
+|*9:15-12:00*   | [Wrap up JS1, Class: JS2](sessions/js-2.md)|  |  |
 |*12:00-1:00*   | Lunch|
-|*1:00-3:00*    | [Class: JS3](sessions/js-3.md)|  |  |
+|*1:00-3:00*    | [Project Work Time]|  |  |
 |*3:00-3:45*    | Professional Skills Session: Personal Branding: Developing your 30 second story |  |  |
 |*3:45-4:00*    | Wrap Up: Wins of the Day and Appreciations |  |  |
 
@@ -50,7 +50,7 @@
 |Time           |Session         |Status    |Assigned|
 |---            |---             |---       |---     |
 |*9:00-9:15*    | Morning Team-Builder |  |  |
-|*9:15-12:00*   | [Class: JS3 (continued)](sessions/js-3.md)|  |  |
+|*9:15-12:00*   | [Class: JS3 - DOM Manipulation](sessions/js-3.md)|  |  |
 |*12:00-1:00*   | Lunch|
 |*1:00-3:00*    | Class: Fundamentals Review and Work Time|  |  |
 |*3:00-4:00*    | Final Wrap Up: Project Show & Tell, Final Wins and Appreciations, and Certificate Ceremony |  |  |
