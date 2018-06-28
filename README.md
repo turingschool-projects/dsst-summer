@@ -41,7 +41,7 @@
 |*9:00-9:15*    | Morning Team-Builder |  |  |
 |*9:15-12:00*   | [Wrap up JS1, Class: JS2](sessions/js-2.md)|  |  |
 |*12:00-1:00*   | Lunch|
-|*1:00-3:00*    | [Project Work Time]|  |  |
+|*1:00-3:00*    | Project Work Time|  |  |
 |*3:00-3:45*    | Professional Skills Session: Personal Branding: Developing your 30 second story |  |  |
 |*3:45-4:00*    | Wrap Up: Wins of the Day and Appreciations |  |  |
 
