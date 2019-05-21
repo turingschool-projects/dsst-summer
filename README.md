@@ -5,7 +5,7 @@
 |Time           |Session         |Status    |Assigned|
 |---            |---             |---       |---     |
 |*9:00-9:30*    | Welcome, Intro, Review the Schedule |  |  |
-|*9:30-10:00*    | Icebreakers | |  |
+|*9:30-10:00*   | Icebreakers | |  |
 |*10:00-10:45*  | Wireframing Idea Brainstorm Adventure|  |  |
 |*10:45-12:00*  | [Class: Intro to HTML](sessions/intro-to-html-1.md)|   |   |
 |*12:00-1:00*   | Lunch|
@@ -18,8 +18,8 @@
 |---            |---             |---       |---     |
 |*9:00-9:15*    | Morning Team-Builder |  |  |
 |*9:15-12:00*   | [Class: Intro to CSS](sessions/css-1.md)|  |  |
-|*12:00-1:00*   | Lunch + Healthgrades Visit |
-|*1:00-3:00*  | [Class: Responsive Layouts with CSS](sessions/intro-to-responsive.md)|  |  |
+|*12:00-1:00*   | Lunch |
+|*1:00-3:00*    | [Class: Responsive Layouts with CSS](sessions/intro-to-responsive.md)|  |  |
 |*3:00-3:45*    | Code: Debugging the Gender Gap|  |  |
 |*3:45-4:00*    | Wrap Up: Wins of the Day and Appreciations |  |  |
 
@@ -28,10 +28,10 @@
 |Time           |Session         |Status    |Assigned|
 |---            |---             |---       |---     |
 |*9:00-9:15*    | Morning Team-Builder |  |  |
-|*9:15-12:00*   | [Class: JS1](sessions/js-1.md)|  |  |
+|*9:15-12:00*   | [Class: Fun with CSS Animations & Work Time](sessions/intro-to-css-animations.md)|  |  |
 |*12:00-1:00*   | Lunch|
-|*1:00-3:00*    | [Class: Fun with CSS Animations & Work Time](sessions/intro-to-css-animations.md)|  |  |
-|*3:00-3:45*    | Collaboration: Work Styles & Strengthsfinder |  |  |
+|*1:00-3:00*    | [Class: JS1](sessions/js-1.md)|  |  |
+|*3:00-3:45*    | Work Time |  |  |
 |*3:45-4:00*    | Wrap Up: Wins of the Day and Appreciations |  |  |
 
 ### Day 4
@@ -41,8 +41,8 @@
 |*9:00-9:15*    | Morning Team-Builder |  |  |
 |*9:15-12:00*   | [Wrap up JS1, Class: JS2](sessions/js-2.md)|  |  |
 |*12:00-1:00*   | Lunch|
-|*1:00-3:00*    | Project Work Time|  |  |
-|*3:00-3:45*    | Professional Skills Session: Personal Branding: Developing your 30 second story |  |  |
+|*1:00-2:45*    | Project Work Time|  |  |
+|*2:45-3:45*    | Professional Skills Session: Continuing Ed and Career Strategies |  |  |
 |*3:45-4:00*    | Wrap Up: Wins of the Day and Appreciations |  |  |
 
 ### Day 5
@@ -52,5 +52,6 @@
 |*9:00-9:15*    | Morning Team-Builder |  |  |
 |*9:15-12:00*   | [Class: JS3 - DOM Manipulation](sessions/js-3.md)|  |  |
 |*12:00-1:00*   | Lunch|
-|*1:00-3:00*    | Class: Fundamentals Review and Work Time|  |  |
+|*1:00-2:00*    | CU Denver Project Demos|  |  |
+|*2:00-3:00*    | Class: Fundamentals Review and Work Time|  |  |
 |*3:00-4:00*    | Final Wrap Up: Project Show & Tell, Final Wins and Appreciations, and Certificate Ceremony |  |  |
