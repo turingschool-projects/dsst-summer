@@ -4,33 +4,44 @@ length: 180
 tags: css, introduction, practice
 ---
 
-## Overview & Docs
+<!-- To Do List/Items: -->
 
-The front-end of the web is based on three major technologies:
+<!-- 
+- Papers and markers for demonstrating positioning in CSS. 1 paper per student
+- Chart paper with a border to represent the `section` border in the positioning exercise. 1 chart paper per 3 students
+- Write password for internet on the board
+- Write URL for DSST repo on board -->
 
-* __HTML aka "STRUCTURE"__:  HyperText Markup Language (HTML) defines the structure and semantics of web pages on the web.
-* __CSS aka "PRESENTATION"__:  Cascading Style Sheets (CSS) sets the look and style of a web page. CSS provides style to the structure provided by HTML.
-* __JavaScript aka "BEHAVIOR"__:  JavaScript allows us to define interaction in our pages. What happens when a user clicks on a certain area?
-The front-end of the web is based on three major technologies:
+## Learning Goals
 
-This lesson is all about the presentation layer, CSS. We'll take this opportunity to accomplish the following:
-
-* Learn the basics of CSS, and experiment with some of the major properties for both aesthetic and layout
-* Build a small static site and style our markup using a separate style sheet of basic CSS
-
-But first, the road to enlightenment: [CSS Zen Garden](http://www.csszengarden.com/)
+- Understand the basics of CSS and apply these concepts to add styling to HTML structures
+- Demonstrate how CSS positioning allows us to decide where elements are placed
+- Build a small static site and style our markup using a separate style sheet of basic CSS 
 
 ## Vocab
 
 - `CSS` Cascading Style Sheets
 - `CSS property` The name of a display property of an HTML element (e.g., color, border)
-- `HTML element` A building block that makes up the structure of a web page
-- `tag` Usually used interchangeably with 'HTML element'
-- `id` / `class` Ways to identify HTML elements
+- `id` / `class` Ways to identify/target HTML elements
 
+# Overview
 
-## CSS The Basics
-It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works _with_ HTML, but isn't HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a `class` and `id` attribute available to use on __every__ html element. In addition to the plain old tag names themselves, these attributes allow you to create "targets" for both your css and javascript. They are hooks so that you can manipulate the look and behavior of your HTML elements.
+The front-end of the web is based on three major technologies: HTML, CSS, and JavaScript. Today we are going to focus on CSS:
+
+* __CSS aka "PRESENTATION"__:  Cascading Style Sheets (CSS) sets the look and style of a web page. CSS provides style to the structure provided by HTML.
+
+<!-- Possible analogies to use:
+HTML = HOUSE
+CSS = PAINT/CARPET
+JS = TURNING ON LIGHTS/FUNCTIONALITY -->
+
+## What is CSS?
+
+It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works _with_ HTML, but isn't HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. 
+
+There is a `class` and `id` attribute available to use on __every__ html element. In addition to the plain old tag names themselves, these attributes allow you to create "targets" for both your css and javascript. They are hooks so that you can manipulate the look and behavior of your HTML elements.
+
+Let's take a look at [CSS Zen Garden](http://www.csszengarden.com/), a website that showcases what can be accomplished with CSS.
 
 ## Anatomy of a Basic CSS Rule
 
@@ -68,7 +79,7 @@ To the right of the HTML pane, there's a small sidebar that gives us styling inf
 
 
 ### Your Challenge
-Directly from the css pane, we can edit the css and see the changes reflected immediately.
+Directly from the css panel, we can edit the css and see the changes reflected immediately.
 
 Let's work with the following edits on [girldevelopit.com](https://www.girldevelopit.com/):
 
@@ -77,7 +88,6 @@ Let's work with the following edits on [girldevelopit.com](https://www.girldevel
 * Change the "flourish" logo in the headline to have a height of 20px
 * Hide the element that contains the map using css
 
-
 # Practice
 Let's setup a small static page to experiment with our HTML and CSS.
 
@@ -85,39 +95,18 @@ Let's setup a small static page to experiment with our HTML and CSS.
 * Using the template below, set up your HTML file
 
 ```html
-<!doctype html>
-<html>
-  <head>  
-    <title>CSS Playground</title>
-  </head>  
-  <body>  
-    <h1>Static Site Experiments in Here!</h1>
-  </body>  
-</html>
+<head>  
+  <title>CSS Playground</title>
+</head>  
+<body>  
+  <h1>Static Site Experiments in Here!</h1>
+</body>  
 ```
 
 ## Let's draw some boxes and play with some basic CSS properties
 
 * Box Model things: `width`, `height`, `border`, `padding`, `margin`
 * Aesthetic things: `color`, `font-family`, `background-color`
-
-### Box-Sizing and the CSS Box Model:
-
-In HTML, you can visualize each element as its own rectangular box. There are a number of CSS properties that can affect the final width and height of each of these boxes. The CSS Box Model describes how the final height and width of an element is determined.
-
-We have a `div` element that we gave a `width` of `400` and a `height` of `200`. However, we've also applied several additional properties that are affecting its size and positioning. The `padding` property is adding `20px` to the element's height and width. Now the actual *visible* dimensions of our element are `440x240`. The DevTools panel provides a handy graphic of how our div is being rendered.
-
-This is the default behavior for the rendering of block elements in CSS and is due to the `box sizing` property having a default value of `content-box`. The `box-sizing` property allows us to override this behavior and alter how the dimensions of an element are calculated:
-
-```css
-*,
-*:after,
-*:before {
-  box-sizing: border-box;
-}
-```
-
-Setting the `box-sizing` property to `border-box` will alter the model so that the `width` and `height` properties include the content, padding and border. If we were to set `box-sizing: border-box` on our previous example, our element would be rendered at exactly the `400x200` dimensions we specified. Its `padding` and `border` properties would be included within those dimensions, making our content area slightly smaller.
 
 ## Document Flow is Important
 
@@ -144,6 +133,8 @@ div {
 }
 ```
 
+<!-- Talk about using inline block when changing inline to block -->
+
 ### Position Property
 
 - We can manipulate this [code pen](https://codepen.io/damwhit/pen/POxbPV) to play around with the following values for our position property.
@@ -153,6 +144,33 @@ div {
 - You specify the position of your element via offset properties: `auto` (default), `top`, `bottom`, `right`, `left`
 - An element whose position property is set to absolute or fixed is called an absolutely positioned element.
 - A positioned element can take advantage of the `z-index` property to specify its stack order. The stack order is the order in which elements in the same space lay on top of one another. For example, an element with a `z-index` of `2` will appear above an element with a `z-index` of `1` if they happen to overlap. Without any z-index value, elements stack in the order they appear in the DOM (the lowest one down at the same hierarchy level appears on top). Elements with non-static positioning will always appear on top of elements with default static positioning. Also note that nesting plays a big role. If an element B sits on top of element A, a child element of element A can never be higher than element B.
+
+
+<!-- 
+  Start by using the codepen to demonstrate differences in positioning. Transition into using papers with colored squares to demonstrate positioning. 
+
+  After the demonstration, have each student color a square on a single sheet of paper. Place students in groups of 3 (each student should have a different color for their square) to work through a positioning exercise -->
+
+#### Your Turn
+
+Gather into a group of 3. Make sure each person in the group has a different color. Use this `HTML` and line up accordingly:
+
+```html
+<section>
+  <div class="human1"></div>
+  <div class="human2"></div>
+  <div class="human3"></div>
+</section>
+```
+
+Once you are ready to go, try the following:
+
+- `human1` should set their positioning to `absolute`
+- Reset
+- `human2` should set their positioning to `absolute` and `right: 0`
+- Reset
+- `human3` should set their positioning to `absolute` and `top: 0`
+- `section` is now set to positioning `relative`. What happens when `human1` sets the property of `right:0`?
 
 ### Floats
 "Floating" an element takes it out of the normal flow, and places it as far to the left or right of its containing element as possible. Any other elements, such as paragraphs or lists, will wrap around the floated element as seen [here](https://codepen.io/damwhit/pen/RMRKaW). (It was originally intended only for magazine style text wrapping.)
@@ -165,6 +183,8 @@ div {
 - `inherit`: the element inherits the float direction of its parent.
 - `clear`: Float's sister property. An element that has the clear property set on it will not move up adjacent to the float like the float desires, but will move itself down past the float.
 - We can play around with this [code pen](https://codepen.io/damwhit/pen/KZjBPK) to see how float and clear work with one another.
+
+<!-- Don't go down the rabbit hole of figuring out how to explain clearfix hack -->
 
 ```css
 .clearfix:after {
@@ -182,6 +202,10 @@ __Specificity__ is a weight that is applied to a given CSS declaration and is de
 Basically, it’s a mechanism within the CSS cascade, which helps browsers in conflicts resolution. Suppose, you have two (or more) conflicting CSS rules that are being applied to the same element, then there are going to be some basic rules which a browser will follow to determine which one is most specific and that particular CSS declaration will win.
 
 ### What does specificity look like?
+
+
+<!-- Write example on the whiteboard to go with CSS -->
+
 ```css
 
 // This makes all the <li> tags magenta
@@ -197,14 +221,19 @@ li p {
 ```
 
 ### How do you calculate specificity?
-To find the actual specificity of a group of nested selectors takes some calculation. Basically, every inline style has a specificity of 1000, every ID selector has a value of 100, every class selector has a value of 10 and every element has a value of 1. Finally, we add them up to get the specificity weight.
 
-Examples:-
+<!--
+  write a simple tag on the whiteboad with a simple class
+  write the corresponding to css
+ -->
+
+To find the actual specificity of a group of nested selectors takes some calculation. Basically, every inline style has a specificity of 1000, every ID selector has a value of 100, every class selector has a value of 10 and every element has a value of 1. Finally, we add them up to get the specificity weight
+
+Examples:
 
 * `a` has a specificity of 1 (1 element selector)
 * `div p` has a specificity of 2 (2 element selectors, 1+1)
 * `.active` has a specificity of 10 (1 class selector)
-* `#nav` has a specificity of 100 (1 id selector)
 
 [Specificity Calculator](https://specificity.keegan.st/) The highest number wins for most specific and will correspondingly take precedent in application of style.
 
