@@ -4,6 +4,23 @@ length: 180
 tags: html, introduction, practice
 ---
 
+<!-- To Do List/Items: -->
+
+<!-- - Chart paper with HTML, CSS, JS drawings
+- Write password for internet on the board
+- Write URL for DSST repo on board -->
+
+## Learning Goals
+
+- Utilize technical documentation to help solve computer programming problems
+- Utilize Chrome DevTools to debug and make changes to websites
+
+## Vocab
+
+- `Dev Tools` web development tools built into the Chrome Browser
+- `Technical Documentation` written documents and materials dealing with software product development
+- `Form` a document section that has interactive controls for submitting info
+
 # Overview
 Now that you have a handle on the basics of structuring content for an HTML file:
 
@@ -23,6 +40,9 @@ Dev Tools
 ***
 
 # Forms
+
+<!-- Ask for examples of forms that they've used on websites/interactions -->
+
 Forms are an important part of a website. They allow users to send data to the web site. Most of the time that data is sent to the web server, but the web page can also intercept it to use it on its own. Forms are comprised of the following base elements:
 
 * `form`
@@ -32,6 +52,7 @@ Forms are an important part of a website. They allow users to send data to the w
 
 <p data-height="300" data-theme-id="26495" data-slug-hash="JbyeZM" data-default-tab="html,result" data-user="turing" data-embed-version="2" data-pen-title="Super Basic HTML Form" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/team/turing/pen/JbyeZM/">Super Basic HTML Form</a> by Turing School of Software and Design (<a href="http://codepen.io/turing">@turing</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
 
 ## Your Challenge
 
@@ -48,6 +69,8 @@ Copy the form code below into your own Pen, and then refactor as follows:
 ***
 
 # Chrome Dev Tools
+
+<!-- Tell a story about using dev tools -->
 
 Debugging your front-end code can be an intimidating part of the development process, but it's also one of the most powerful skills you can acquire Developers of all levels spend a significant amount of time troubleshooting code, but the more comfortable you are with debugging tools, the easier it will be to isolate, identify and fix broken code.
 
