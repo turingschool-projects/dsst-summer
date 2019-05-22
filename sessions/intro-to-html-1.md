@@ -6,7 +6,8 @@ tags: html, introduction, practice
 
 <!-- To Do List/Items: -->
 
-<!-- - Chart paper with HTML, CSS, JS drawings
+<!-- 
+- Chart paper with HTML, CSS, JS drawings
 - Write password for internet on the board
 - Write URL for DSST repo on board -->
 ## Learning Goals
