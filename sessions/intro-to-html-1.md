@@ -4,26 +4,36 @@ length: 180
 tags: html, introduction, practice
 ---
 
-# Overview
+<!-- Items Needed: -->
 
-The front-end of the web is based on three major technologies:
+<!-- - Chart paper with HTML, CSS, JS drawings
+- Write password for internet on the board
+- Write URL for DSST repo on board -->
+## Learning Goals
 
-* __HTML aka "STRUCTURE"__:  HyperText Markup Language (HTML) defines the structure and semantics of web pages on the web.
-* __CSS aka "PRESENTATION"__:  Cascading Style Sheets (CSS) sets the look and style of a web page. CSS provides style to the structure provided by HTML.
-* __JavaScript aka "BEHAVIOR"__:  JavaScript allows us to define interaction in our pages. What happens when a user clicks on a certain area?
+- Understand what HTML stands for and how it's used to build websites
+- Understand and structure a basic document with HTML elements
 
 ## Vocab
 
 - `HTML` HyperText Markup Language
-- `CSS` Cascading Style Sheet
-- `CSS Property` The name of a display property of an HTML element (e.g., color, border)
-- `HTML Element` A building block that makes up the structure of a web page
-- `HTML Tag` Used to create HTML elements. Some elements have an opening and closing tag, others only have an opening tag.
-- `Id` / `Class` Ways to identify HTML elements
+- `Tag` Used to create HTML elements. Some elements have an opening and closing tag, others only have an opening tag.
+- `Element` A building block that makes up the structure of a web page
 - `Attribute` Additional values that configure HTML elements and adjust their behavior
 - `Hyperlink` A reference to an external resource
 - `Block` A block-level element occupies the entire width of its parent element (container), thereby creating a "block."
 - `Inline` An inline-level element only occupies the space bounded by the tags defining the element, instead of breaking the flow of the content.
+
+# Overview
+
+The front-end of the web is based on three major technologies: HTML, CSS, and JavaScript. Today we are going to focus on HTML:
+
+* __HTML aka "STRUCTURE"__:  HyperText Markup Language (HTML) defines the structure and semantics of web pages on the web.
+
+<!-- Possible analogies to use:
+HTML = HOUSE
+CSS = PAINT/CARPET
+JS = TURNING ON LIGHTS/FUNCTIONALITY -->
 
 ## What is HTML?
 
@@ -40,17 +50,7 @@ The front-end of the web is based on three major technologies:
 ## Anatomy of a Tag
 ![Anatomy of an HTML Tag](/assets/html-tag.jpg)
 
-
-## Required Structure of any HTML Page
-
-* `<!doctype html>` declaration: The doctype declaration is not an HTML tag, but rather tells the browser which version of HTML the page is written in.  
-  - [W3C DTD Docs](https://www.w3.org/QA/2002/04/valid-dtd-list.html)  
-* `<html></html>` tag wraps the entire document
-* `<head></head>` tag wraps elements that shouldn't be rendered: information about the page and how to process it
-* `<body></body>` tag wraps elements that should be displayed: the actual content
-
-<p data-height="300" data-theme-id="23788" data-slug-hash="gLxjjy" data-default-tab="html,result" data-user="turing" data-embed-version="2" data-pen-title="A complete but small document" class="codepen">See the Pen <a href="http://codepen.io/team/turing/pen/gLxjjy/">A complete but small document</a> by Turing School of Software and Design (<a href="http://codepen.io/turing">@turing</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script> 
+<!-- Use the projector to go over `p` tag... use whiteboard to reiterate opening and closing tags. Could introduce another simple tag, like `h1` -->
 
 ## Elements
 Elements are created with one or more tags. They are used to describe and hold our content.
@@ -84,6 +84,7 @@ Here is an example of a slightly more robust document:
 
 <!--
   Write a simplified example on the board,
+
   Turn and Talk
   What are the tags vs what is the element?
 
@@ -114,13 +115,14 @@ Let's experiment with the following tags in codepen:
 
 Use these tags to create the structure of the newspaper. Do not worry about recreating exactly, the goal is just to create the structure.
 
+
 ![Alien Paper](/assets/alien-paper.png)
 
 <p data-height="300" data-theme-id="23788" data-slug-hash="oYePxJ" data-default-tab="html,result" data-user="turing" data-embed-version="2" data-pen-title="Blank" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/team/turing/pen/oYePxJ/">Blank</a> by Turing School of Software and Design (<a href="http://codepen.io/turing">@turing</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 <!--
-  Journal
+  Journal or Turn and Talk
   What limitations do you notice only using html to create our newspaper site?
 -->
 
@@ -141,6 +143,8 @@ Our browser is more than happy to load up an image, but we need to tell it where
 
 Let's update our page with the image above.
 
+<!-- Demonstrate to students how you can do Google Image Searches and adjust for size. Challenge students to replace the previous image with an image of a puppy. -->
+
 <p data-height="471" data-theme-id="23788" data-slug-hash="XKmwqR" data-default-tab="html,result" data-user="turing" data-embed-version="2" data-pen-title="A Page with an Image" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/team/turing/pen/XKmwqR/">A Page with an Image</a> by Turing School of Software and Design (<a href="http://codepen.io/turing">@turing</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
@@ -159,10 +163,11 @@ In this case, the `<a>` tag needs to know which url it should be linked to. We u
 <p data-height="300" data-theme-id="23788" data-slug-hash="yJYdyb" data-default-tab="html,result" data-user="turing" data-embed-version="2" data-pen-title="A Page with a Link" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/team/turing/pen/yJYdyb/">A Page with a Link</a> by Turing School of Software and Design (<a href="http://codepen.io/turing">@turing</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
+Check link for codepen
+
 <!--
   Turn and Talk
   What are attributes and what are they used for?
-  What are some other attributes you have used?
   Why do some elements have two tags and others just have one?
  -->
 
@@ -174,6 +179,8 @@ This is an important distinction:
 
 - Block elements stack on top of each other. Each one starts and ends on its own line.
 - Inline elements can be used to mark up a few words inside of a block element.
+
+<!-- Use an analogy to really drill home the difference between inline and block. Possibly the Old Man/Lawn analogy -->
 
 Some other inline tags you might see in the wild:
 
@@ -204,7 +211,11 @@ There is just one important difference between the two.
 - `<div>` is a block element.
 - `<span>` is an inline element.
 
+  <!-- emphasize that divs/spans hold content and are used for styling -->
+
+
 We'll discuss these more in a bit when we talk about CSS. But, for now, let's move on to forms.
+
 
 ### Forms: Inputs and Buttons
 
