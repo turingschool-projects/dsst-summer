@@ -4,7 +4,7 @@ length: 180
 tags: html, introduction, practice
 ---
 
-<!-- Items Needed: -->
+<!-- To Do List/Items: -->
 
 <!-- - Chart paper with HTML, CSS, JS drawings
 - Write password for internet on the board
