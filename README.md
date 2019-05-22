@@ -12,8 +12,8 @@
 |*9:45-11:00*   | OED Paperwork|
 |*11:00-12:00*  | Wireframing Idea Brainstorm Adventure|
 |*12:00-1:00*   | Lunch|
-|*1:00-2:00*    | [Class: Intro to HTML](sessions/intro-to-html-1.md)|
-|*2:00-3:30*    | [Class: Intro to HTML](sessions/intro-to-html-2.md)|
+|*1:00-2:00*    | [Class: HTML - Structure and Semantics](sessions/intro-to-html-1.md)|
+|*2:00-3:30*    | [Class: HTML - Forms and Dev Tools](sessions/intro-to-html-2.md)|
 |*3:45-4:00*    | Wrap Up: Wins of the Day and Appreciations |
 
 ### Day 2
