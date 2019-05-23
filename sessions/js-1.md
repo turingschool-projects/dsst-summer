@@ -7,33 +7,29 @@ tags: javascript, introduction, foundation, variables
 
 ## Learning Goals
 
-In this lesson we'll cover:
-
-* JavaScript data types
-* What a variable is and how to use it
-* Operators and how to use them
-* Conditionals and when to use them
-* How to declare and call functions with or without parameters
-
-## Resources
-[JS Style Guide](https://github.com/turingschool-examples/javascript)
+- Understand and explain data types in JavaScript
+- Understand variables and why they are used in computer programming
+- Write and understand operators and conditional logic
+- Understand functions and how they are used in computer programming
 
 ## Vocab
 
-- `Variable` A container for a value. The main building block for all programming
-- `Function` A predefined and reusable group of behavior
-- `Expression` An executable piece of code, the result of which may be assigned to a variable. Expressions result in a single value
-- `Statement` An executable piece of code (the result of which may or may not be able to be assigned to a variable)
-- `Array` A list of values
-- `Operator` Symbols that are used to assign, compare, and perform operations
-- `Conditional` An expression that evaluates to true or false, or a control flow statement that executes code
 - `Data Type` A kind of data, defined by the values it can hold and the operations that can be done on it
-- `Primitive type` A kind of data type. Primitives in Javascript are [string, number, boolean, null, undefined, symbol]
+- `Variable` A container for a value. The main building block for all programming
 - `Assignment` Assigning a value to a variable
 - `Declare` Creating a new variable (distinct from assignment)
+- `Expression` An executable piece of code, the result of which may be assigned to a variable. Expressions result in a single value
+- `Operator` Symbols that are used to assign, compare, and perform operations
+- `Statement` An executable piece of code (the result of which may or may not be able to be assigned to a variable)
+- `Conditional` An expression that evaluates to true or false, or a control flow statement that executes code
+- `Array` A list of values
+- `Function` A predefined and reusable group of behavior
 - `Call/Invoke` Running a function
 - `Parameters` The variables declared in a function definition
 - `Arguments` The variables passed to a function when it's called/invoked
+
+## Resources
+[JS Style Guide](https://github.com/turingschool-examples/javascript)
 
 ## History of JavaScript
 
@@ -204,8 +200,12 @@ Expressions rely on operators to calculate their single value. There are 5 basic
 2. [Arithmetic operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Arithmetic_operators) perform basic math. `var addTwo = 2 + 2;`
 3. [String operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#String_operators) combine strings. `var greeting = 'Hello! ' + 'Nice to meet you.';`
 4. [Comparison operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators) compare two values and return a __true__ or __false__. `var buy = 3 > 5; // Value of buy is false`
-5. [Logical operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Logical_operators) combines __expressions__ and return a Boolean value of true or false. `var buy = (5 > 3) && (2 < 4);`
 
+
+_If you're feeling up to a challenge, check out the [logical operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Logical_operators) in the MDN documentation_
+__
+
+ 
 # Statements
 
 A script is a series of instructions that a computer can follow one by one. Each individual instruction is known as a statement. Each statement in JavaScript is followed by a semicolon.
