@@ -20,6 +20,7 @@ tags: javascript, dom, browser
 - `EventHandler` A function that will run when a specific event occurs
 
 ## The Document Object Model (DOM)
+
 [DOM Documentation](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 
 The browser gives us some useful global objects for free. The `window` object is the global object and it holds a lot of information about the browser window including it's current location (URL), size, etc. `document` contains a representation of the current web page.
@@ -30,13 +31,16 @@ The browser gives us some useful global objects for free. The `window` object is
 document.querySelector();
 document.querySelectorAll();
 ```
-
+  
 Both methods take a query selector—like you would use in CSS. `document.querySelector()` returns the first element that matches the query. `document.querySelectorAll()` returns a collection of all the elements that match the query.
 
 Let's say we have a page with the following markup:
 
 <p data-height="300" data-theme-id="23788" data-slug-hash="WxOKwo" data-default-tab="html,result" data-user="turing" data-embed-version="2" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/team/turing/pen/WxOKwo/">Simple HTML Page</a> by Turing School of Software and Design (<a href="http://codepen.io/turing">@turing</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<!-- 
+Make sure to show them that you must select `codepen` in the drop menu in the console to get the accurate information -->
 
 Let's try out some queries:
 
@@ -98,6 +102,8 @@ To sum up:
 
 ### Pair Practice
 
+<!-- 15 minutes or so on this -->
+
 Visit <a href="http://codepen.io/team/turing/pen/GqEBqg" target="blank">this page</a> and fork the CodePen.
 
 <p data-height="300" data-theme-id="23788" data-slug-hash="GqEBqg" data-default-tab="html,result" data-user="turing" data-embed-version="2" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/team/turing/pen/GqEBqg/">HTML Report Card</a> by Turing School of Software and Design (<a href="http://codepen.io/turing">@turing</a>) on <a href="http://codepen.io">CodePen</a>.</p>
@@ -155,7 +161,7 @@ If that list overwhelms you, here is a artisinal, hand-crafted list:
 
 - `mouseenter`
 - `mouseleave`
-- `dblclick`
+- `click`
 - `keydown`
 - `keyup`
 
@@ -204,9 +210,8 @@ Here is an example of the second task:
 
 ![Custom CSS Color Box](https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-340/custom-css-modifier.gif)
 
-Review Questions
-- What is the DOM?
-- How do we get information out of the DOM and into our JS?
-- How do we add information to the DOM?
+### Journal
+
+- What is the DOM? Why is it useful?
 - How can change the CSS of elements?
 - What is the preferred method for updating our CSS using JS?
