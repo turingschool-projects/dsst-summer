@@ -1,10 +1,4 @@
----
-title: Introduction to JavaScript — Part II
-title: JS II
-length: 120
-tags: javascript, introduction, foundation, variables
----
-
+# JavaScript II: Scope, Arrays, Loops
 <!-- To Do List/Items: -->
 
 <!-- 

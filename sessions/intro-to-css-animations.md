@@ -1,7 +1,4 @@
----
-title: CSS Transitions, Transformations, Animations
-tags: css, introduction, practice
----
+# CSS: Animations
 
 <!-- To Do list/Items: -->
 

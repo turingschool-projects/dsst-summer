@@ -1,8 +1,4 @@
----
-title: Intro to Responsive Layouts
-length: 60
-tags: html, css
----
+# CSS: Intro to Responsive
 
 ### Learning Goals
 - Understand and describe page layout

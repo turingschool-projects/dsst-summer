@@ -1,8 +1,4 @@
----
-title: Introduction to JavaScript III - Intro to DOM Manipulation
-length: 180
-tags: javascript, dom, browser
----
+# JavaScript III: DOM Manipulation
 
 ## Learning Goals
 

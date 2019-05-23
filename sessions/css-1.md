@@ -1,8 +1,4 @@
----
-title: CSS I
-length: 180
-tags: css, introduction, practice
----
+# CSS: Styling, Positioning
 
 <!-- To Do List/Items: -->
 

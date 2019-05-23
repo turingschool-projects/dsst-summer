@@ -1,8 +1,4 @@
----
-title: HTML I - Structure, Semantics, and FPO Fun
-length: 180
-tags: html, introduction, practice
----
+# HTML I: Tags, Elements, Forms
 
 <!-- To Do List/Items: -->
 

@@ -1,10 +1,4 @@
----
-title: Introduction to JavaScript — Part I
-title: JS I
-length: 180
-tags: javascript, introduction, foundation, variables
----
-
+# JavaScript I: Data, Variables, Conditional Logic, Functions
 <!--
 - Write password for internet on the board
 - Write URL for DSST repo on board -->

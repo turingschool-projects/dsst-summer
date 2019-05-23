@@ -1,8 +1,4 @@
----
-title: HTML II - Forms, Devtools, Accessibility Best Practices
-length: 180
-tags: html, introduction, practice
----
+# HTML II: Documentation and Debugging Tools
 
 <!-- To Do List/Items: -->
 
