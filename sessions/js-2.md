@@ -13,10 +13,6 @@ tags: javascript, introduction, foundation, variables
 - Write password for internet on the board
 - Write URL for DSST repo on board -->
 
-Items Needed:
--Chart Paper
-
-
 ## Review
 
 Before we get started with new material, let's go over over what we've learned so far.  
@@ -53,12 +49,12 @@ Groups have 8 mins to answer questions and draw/write out their answers. End wit
 
 ## Learning Goals
 
-* More about functions and their uses  
-* Variable scope  
-* Array literals  
-* Adding/changing values to arrays via their indices  
-* `for` loops  
-
+- Review and understand functions at a deeper level
+- Understand how basic scoping works in JavaScript
+- Understand what an array is and why they are useful
+- Demonstrate how to set and access values in an array
+- Use for loops to iterate
+ 
 ## Vocab
 
 - See [vocab](http://frontend.turing.io/lessons/module-1/js-1.html) for JS I
