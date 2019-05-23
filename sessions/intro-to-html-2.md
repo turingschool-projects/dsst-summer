@@ -132,7 +132,7 @@ Let's work with the following edits on [girldevelopit.com](https://www.girldevel
 [elements-panel]: /assets/elements-panel.png
 [find-in-html]: /assets/find-in-html.gif
 
-### Closing
+### Journal
 
 - Why is programming documentation important?
 - What are Chrome Dev Tools? Why do we use them?

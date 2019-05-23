@@ -376,7 +376,7 @@ return x + y / 3;
 
 * [JavaScript Playground](http://frontend.turing.io/lessons/module-1/javascript-playground.html) let's you experiment more with these concepts.
 
-### Closing
+### Journal
 
 - Name the 3 data types we covered today. Write down an example of each one
 - What is a variable? Why is it useful?

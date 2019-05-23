@@ -172,7 +172,7 @@ div {
 ### Code Pen #5 :facepunch: :dizzy_face:
 Go crazy. Experiment with all you've just learned and make a 4-stage animation(s). Hint: code pen #4 was a 2-stage animation. 
 
-### Closing
+### Journal
 
 - What is one new thing that you learned about CSS animations that wasn't covered in the lesson?
 - What are two questions that you have about what we covered?

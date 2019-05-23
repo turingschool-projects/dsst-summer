@@ -239,6 +239,6 @@ Key Points:
 * The universal selector (*) has no specificity value.
 
 
-### Closing
+### Journal
 - What does CSS stand for? Why do we use it?
 - How does positioning work in CSS? What are some examples of properties that allow us to position elements?

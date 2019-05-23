@@ -250,7 +250,7 @@ Let's take a moment to digress and discuss important things. Like "For Placement
 * [SampleVideos](http://www.sample-videos.com/)
 * [Article with useful sites for free icons, image assets, etc.](https://www.elegantthemes.com/blog/resources/10-of-the-best-places-to-find-free-icons-and-image-assets-online)
 
-### Closing
+### Journal
 
 - What does HTML stand for? 
 - How would you describe what HTML does, in your own words?
