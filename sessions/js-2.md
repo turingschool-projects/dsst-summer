@@ -388,11 +388,11 @@ We can see that this condition will never return `false` and we'll be stuck in t
 - Think of your favorite app. What data does it store? What might be stored in an array?
 - What are loops? Why do we use them?
 
-### Additional Practice  
+#### Additional Practice  
 
 * [JavaScript Playground](http://frontend.turing.io/lessons/module-1/javascript-playground.html) let's you experiment more with these concepts.
 
-### Dig Deeper  
+#### Dig Deeper  
 
 * [Seven JS Quirks I Wish I'd Known About](http://developer.telerik.com/featured/seven-javascript-quirks-i-wish-id-known-about/#expdec)  
 * [Adequately Good JS](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)  
