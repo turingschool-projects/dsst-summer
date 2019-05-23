@@ -5,6 +5,18 @@ length: 120
 tags: javascript, introduction, foundation, variables
 ---
 
+<!-- To Do List/Items: -->
+
+<!-- 
+- Chart paper for review of JS 1
+- Write questions for review on the board
+- Write password for internet on the board
+- Write URL for DSST repo on board -->
+
+Items Needed:
+-Chart Paper
+
+
 ## Review
 
 Before we get started with new material, let's go over over what we've learned so far.  
@@ -14,18 +26,38 @@ Before we get started with new material, let's go over over what we've learned s
 - Conditionals
 - Functions
 
-## Learning Goals
+<!-- ## Chartboard Review template: 
 
-In this lesson we'll cover:
+Norms:
+* Each group member should share some findings to the larger group
+* While your group is not going, you should be taking notes on the other groups' findings
+* At the end, time should be given for folks to walk around and check the other chartboards
+
+- Give the groups 8 minute to answer questions
+- Set a timer to project onto the board
+
+Break students into groups of 3-4 people (4 max) each to review specific topics.
+
+Groups should answer the following 3 questions on chart paper. These should be written on the board before the students arrive:
+
+1. What would be an example of ___________ ?
+
+2. What are the most important/significant things someone should know about ___________________?
+
+3. What might be a metaphor or analogy for  ________________?
+
+Groups have 8 mins to answer questions and draw/write out their answers. End with groups sharing out.
+
+
+ -->
+
+## Learning Goals
 
 * More about functions and their uses  
 * Variable scope  
 * Array literals  
 * Adding/changing values to arrays via their indices  
 * `for` loops  
-
-## Resources
-[JS Style Guide](https://github.com/turingschool-examples/javascript)
 
 ## Vocab
 
@@ -37,6 +69,8 @@ In this lesson we'll cover:
 - `Loops` A quick and easy way to do something repeatedly
 - `Control Flow` The order in which the computer executes statements in a script. The order of execution can change whenever the computer runs across the (extremely frequent) structures that change the control flow, such as conditionals and loops.
 
+## Resources
+[JS Style Guide](https://github.com/turingschool-examples/javascript)
 
 # More on Functions
 
@@ -81,7 +115,7 @@ function ninjaAttack() {
 
 Turn to your neighbor and explain how the functions above work. Remember, getting practice using the vocabulary is important so make sure you both have a chance to talk through it!  
 
-How would you use parameters and arguments to make the logged string be different each time we call the function?
+_Challenge: How would you use parameters and arguments to make the logged string be different each time we call the function?_
 
 ## Part 2: Putting a name (or not) to our functions
 
@@ -123,8 +157,12 @@ So why use named functions over anonymous functions?
 * Named functions are more readable
 * Named functions are easier to reuse
 
+#### Journal
+
+- In your own words, describe a function. What is the difference between an anonymous and a named function?
 
 # Variable Scope
+
 Where you declare a variable affects where it can be used within your code. If you declare a variable within a function, it can only be used within that function. This is known as the variable's `scope`. When we talk about variables in regard to their scope, there are two (kind of three) types:
 
 - Local Variables:
@@ -146,6 +184,8 @@ Where you declare a variable affects where it can be used within your code. If y
   - ok when used to redefine a variable that has already been declared
   - risky business otherwise
 
+<!-- Use analogy from code analogies -->
+
 ## The Variable Danger Zone
 
 Keep this in mind as you're making new variables:
@@ -158,6 +198,9 @@ Variables sans the keyword `var`
 The good news is all you have to do to avoid this is to always remember to use the `var` keyword when declaring a new variable!
 
 # Arrays
+
+<!-- Use analogy to talk about arrays from code analogies -->
+
 An array is a special type of variable. Instead of storing just one value, it stores an ordered list of values. You should consider using an array whenever you are working with a collection of values, or values that are related to one another.
 
 You can put different types of data into an array:
@@ -169,6 +212,9 @@ var rainbowColors = ['Red', 'Orange', 'Yellow', 'Green',
 var lotteryNumbers = [33, 72, 64, 18, 17, 85];
 var myFavoriteThings = ['Broccoli', 1024, 'Sherlock'];
 ```
+
+<!-- Talk about naming and how arrays should be plural -->
+
 You can create an array just like you would any other variable, using the var keyword followed by the name of your array. The values are assigned to the array inside a pair of square brackets ([]), and each individual value is comma-separated. The above technique for creating an array is known as an **array literal**. It is usually the preferred method for creating an array. You can also write an array with values on separate lines, like so:
 
 ```javascript
@@ -176,6 +222,10 @@ colors = ['white',
           'black',
           'pink']
 ```
+
+#### Your Turn 
+
+Open up your console and create an array of your favorite rides at Elitch Gardens.
 
 ## Accessing Values in Arrays
 Each value in an array is automatically given a number called an index. This index can be used to access a particular value in any given array.
@@ -204,14 +254,19 @@ colors;
 // Get the value of the 1st element
 colors[0];
 ```
+<!-- 
+Open up the console - make an array of your favorite things. Then update/access the values that are within the arrays
+ -->
 
 ### Your Turn (5 min)
 
 In the console:  
-- create an array of cars
+- create an array of cars or books
 - change the values within the array
-- add a new car to the array
+- add a new car or book to the array
 - identify the value of the 3rd element of the array
+
+<!-- Could pull someone up from audience who has finished the exercise to showcase what they did/walk through what they did -->
 
 ## Getting Multiple Values from Functions:
 
@@ -224,8 +279,8 @@ function getSize(width, height, depth) {
   var sizes = [area, volume];
   return sizes;
 }
-var areaOne = getSize(3, 2, 3)[0];
-var volumeOne = getSize(3, 2, 3)[1];
+var firstSizes = getSize(3, 2, 3);
+var secondSizes = getSize(3, 2, 3);
 ```
 
 ### Your Turn (10 min)
@@ -257,11 +312,11 @@ getSize(5, 3, 2);
 [15, 30];
 
 // Interactive Pop Quiz Time!
-var areaOne = getSize(3, 2, 3)[0];
-var volumeOne = getSize(3, 2, 3)[1];
-var areaTwo = getSize(5, 1, 2)[0];
-var volumeTwo = getSize(2, 2, 2)[1];
-var areaThree = getSize(1, 8, 7)[0];
+var sizes1 = getSize(3, 2, 3);
+var sizes2 = getSize(3, 2, 3);
+var sizes3 = getSize(5, 1, 2);
+var sizes4 = getSize(2, 2, 2);
+var sizes5 = getSize(1, 8, 7);
 ```
 
 # Loops
@@ -300,6 +355,10 @@ Let's dig into the three statements separated by semicolons that make up or our 
 
 The statement within the curly braces executes each time the loop runs. In this case, we can see we are logging the value of `i` to the console.
 
+#### Turn and Talk
+
+Describe what is loop in your own words. Think of an real world analogy for a for loop.
+
 ### Looping Over Arrays
 `for` loops are commonly used to iterate over the items in a array. To do this, we use the property `length` and call it on the variable associated with the array we want to iterate over. This property returns the length of, or number of elements in, an array. Let's see what that looks like in practice:
 
@@ -312,6 +371,11 @@ for (var i = 0; i < fruitList.length; i++) {
 ```
 
 You can see that instead of using a hardcoded number, we are using `fruitList.length` in our condition. This means we will continue to loop over the array as long as the counter is less than the total number of elements in the array. That's pretty handy!
+
+#### Your Turn 
+
+Create an array of your favorite emojis. Using a for loop, iterate over that array and log each item to the console.
+
 
 ### Loops and Performance Issues
 It's important to be aware of the potential performance problems that loops can cause. When a browser hits Javascript, it stops executing anything else on the page until it has processed that script. Since loops can be run on arrays or containers of unknown -- and potentially enormous -- size, it's possible for our loop to make a page much, much slower to load.
@@ -327,12 +391,6 @@ for (var i = 0; i > -1; i++) {
 ```
 
 We can see that this condition will never return `false` and we'll be stuck in this loop forever (or at least until our page crashes)! Be mindful of the possibility that you could create infinite loops when leveraging loops in your code. They can happen to the best of us, and knowing what they are is the first step to avoiding and correcting them.  
-
-### Benchmarking Loops ( in case you're curious )
-We haven't talked about other kinds of loops yet, but there are many different ways to loop over a data set, and each of them have pros and cons.  
-
-If you're curious, check out this [jsPerf analysis](https://jsperf.com/for-vs-foreach/66) of how long various `for`/`forEach`/`while` loops take to run when executing the same code.  
-
 
 ### Additional Practice  
 

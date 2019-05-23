@@ -5,6 +5,12 @@ length: 180
 tags: javascript, introduction, foundation, variables
 ---
 
+<!-- To Do List/Items: -->
+
+<!--
+- Write password for internet on the board
+- Write URL for DSST repo on board -->
+
 ## Learning Goals
 
 - Understand and explain data types in JavaScript
