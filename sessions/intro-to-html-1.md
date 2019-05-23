@@ -10,6 +10,7 @@ tags: html, introduction, practice
 - Chart paper with HTML, CSS, JS drawings
 - Write password for internet on the board
 - Write URL for DSST repo on board -->
+
 ## Learning Goals
 
 - Understand what HTML stands for and how it's used to build websites
@@ -239,7 +240,6 @@ Instead we'll focus on two elements:
 * [MDN HTML Overview](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [MDN HTML Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference)
 * [HTML Styleguide](https://github.com/turingschool-examples/html)
-* Also, check out the cheat sheets in independent study
 
 ***
 
@@ -253,3 +253,9 @@ Let's take a moment to digress and discuss important things. Like "For Placement
 * [Unsplash](https://unsplash.com/)
 * [SampleVideos](http://www.sample-videos.com/)
 * [Article with useful sites for free icons, image assets, etc.](https://www.elegantthemes.com/blog/resources/10-of-the-best-places-to-find-free-icons-and-image-assets-online)
+
+### Closing
+
+- What does HTML stand for? 
+- How would you describe what HTML does, in your own words?
+- What are elements? Tags?

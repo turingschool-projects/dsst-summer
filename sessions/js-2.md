@@ -388,6 +388,12 @@ for (var i = 0; i > -1; i++) {
 
 We can see that this condition will never return `false` and we'll be stuck in this loop forever (or at least until our page crashes)! Be mindful of the possibility that you could create infinite loops when leveraging loops in your code. They can happen to the best of us, and knowing what they are is the first step to avoiding and correcting them.  
 
+### Closing
+
+- What is an analogy of how scoping works in JavaScript. Illustrate your analogy by drawing a picture.
+- Think of your favorite app. What data does it store? What might be stored in an array?
+- What are loops? Why do we use them?
+
 ### Additional Practice  
 
 * [JavaScript Playground](http://frontend.turing.io/lessons/module-1/javascript-playground.html) let's you experiment more with these concepts.

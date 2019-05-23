@@ -381,3 +381,10 @@ return x + y / 3;
 ### Additional Practice
 
 * [JavaScript Playground](http://frontend.turing.io/lessons/module-1/javascript-playground.html) let's you experiment more with these concepts.
+
+### Closing
+
+- Name the 3 data types we covered today. Write down an example of each one
+- What is a variable? Why is it useful?
+- What is conditional logic and why do we use it?
+- How would you explain what a function does to a five year old?

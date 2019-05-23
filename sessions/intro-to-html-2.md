@@ -133,6 +133,10 @@ Let's work with the following edits on [girldevelopit.com](https://www.girldevel
 * Place the top nav of "supporters" in its hover state
 * Change the "flourish" logo in the headline to one of puppies
 
-
 [elements-panel]: /assets/elements-panel.png
 [find-in-html]: /assets/find-in-html.gif
+
+### Closing
+
+- Why is programming documentation important?
+- What are Chrome Dev Tools? Why do we use them?
