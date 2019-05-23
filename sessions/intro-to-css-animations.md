@@ -3,15 +3,23 @@ title: CSS Transitions, Transformations, Animations
 tags: css, introduction, practice
 ---
 
-## Overview & Docs
+<!-- To Do list/Items: -->
 
-Let's review our three building blocks for front end development:
+<!-- - Have examples ready to show (Overview section) -->
 
-* __STRUCTURE__:  HyperText Markup Language (HTML) defines the structure and semantics of web pages on the web.
-* __PRESENTATION__:  Cascading Style Sheets (CSS) sets the look and style of a web page. CSS provides style to the structure provided by HTML.
-* __BEHAVIOR__:  JavaScript allows us to define interaction in our pages. What happens when a user clicks on a certain area?
+## Learning Goals
 
-Turns out, CSS has some "behaviour tricks" up its sleeve as well. Through CSS transitions, transformations, and animations you can create quite a bit of movement on your page sans any real javascript. Stunning examples include:
+- Understand and implement transitions, transformations, and animations in CSS
+- Utilize programming documentation to complete CSS animation coding challenges
+
+## Vocab
+- `CSS Transition` defines the transition between two states of an element
+- `CSS Transformations` allows for rotation, scaling, or skewing of an element
+- `CSS Animations` makes animating transitions from one CSS style to another
+
+# Overview 
+
+This morning, we are going to continue to focus on CSS - specifically, animations. Turns out, CSS has some "behaviour tricks" up its sleeve. Through CSS transitions, transformations, and animations you can create quite a bit of movement on your page sans any real JavaScript. Check out some of these stunning examples:
 
 * [Type Terms](https://www.supremo.tv/typeterms/)
 * [Code Pen: Page Flip](http://codepen.io/fbrz/pen/whxbF?editors=1100#0)
