@@ -237,3 +237,8 @@ Key Points:
 
 * In case of conflicting styles declaration, the declaration with higher specificity will win regardless of order.
 * The universal selector (*) has no specificity value.
+
+
+### Closing
+- What does CSS stand for? Why do we use it?
+- How does positioning work in CSS? What are some examples of properties that allow us to position elements?
